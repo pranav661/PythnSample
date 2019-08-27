@@ -1,3 +1,8 @@
 import pandas as pd
+import sys
 
-df1 = pd.read_excel(%workspace%"\Master.xlsx",sheet_name='Sheet1')
+workspace = sys.argv[1:]
+
+print(workspace)
+
+#df1 = pd.read_excel(%workspace%"\Master.xlsx",sheet_name='Sheet1')
