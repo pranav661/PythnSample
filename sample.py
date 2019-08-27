@@ -1,7 +1,7 @@
 import pandas as pd
 import sys
 
-workspace = sys.argv[0]
+workspace = sys.argv[1]
 
 print(workspace)
 
