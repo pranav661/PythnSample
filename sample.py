@@ -5,4 +5,4 @@ workspace = sys.argv[0]
 
 print(workspace)
 
-df1 = pd.read_excel(workspace"\Master.xlsx",sheet_name='Sheet1')
+df1 = pd.read_excel(workspace+"\Master.xlsx",sheet_name='Sheet1')
