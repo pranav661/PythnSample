@@ -3,7 +3,7 @@ import sys
 
 print('starting execution')
 
-workspace = sys.argv[0]
+workspace = sys.argv[1]
 print(workspace)
 
 masterpath = workspace + "\Master.xlsx"
